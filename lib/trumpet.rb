@@ -1,11 +1,5 @@
+require "trumpet/version"
+require "trumpet/user_additions"
+require "trumpet/railtie" if defined? Rails
 module Trumpet
-  def add_trumpet_methods
-    include InstanceMethods
-    extend ClassMethods
-  end
-  module InstanceMethods
-  end
-
-  module ClassMethods
-  end
 end

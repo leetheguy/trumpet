@@ -1,15 +1,11 @@
 PATH
   remote: .
   specs:
-    trumpet (0.0.1)
-      rails (~> 3.2.11)
+    trumpet (0.0.003)
 
 GEM
   remote: http://rubygems.org/
   specs:
-    actionmailer (3.2.11)
-      actionpack (= 3.2.11)
-      mail (~> 2.4.4)
     actionpack (3.2.11)
       activemodel (= 3.2.11)
       activesupport (= 3.2.11)
@@ -23,19 +19,11 @@ GEM
     activemodel (3.2.11)
       activesupport (= 3.2.11)
       builder (~> 3.0.0)
-    activerecord (3.2.11)
-      activemodel (= 3.2.11)
-      activesupport (= 3.2.11)
-      arel (~> 3.0.2)
-      tzinfo (~> 0.3.29)
-    activeresource (3.2.11)
-      activemodel (= 3.2.11)
-      activesupport (= 3.2.11)
     activesupport (3.2.11)
       i18n (~> 0.6)
       multi_json (~> 1.0)
-    arel (3.0.2)
     builder (3.0.4)
+    coderay (1.0.8)
     erubis (2.7.0)
     hike (1.2.1)
     i18n (0.6.1)
@@ -44,13 +32,12 @@ GEM
       railties (>= 3.0, < 5.0)
       thor (>= 0.14, < 2.0)
     json (1.7.6)
-    mail (2.4.4)
-      i18n (>= 0.4.0)
-      mime-types (~> 1.16)
-      treetop (~> 1.4.8)
-    mime-types (1.19)
+    method_source (0.8.1)
     multi_json (1.5.0)
-    polyglot (0.3.3)
+    pry (0.9.12)
+      coderay (~> 1.0.5)
+      method_source (~> 0.8)
+      slop (~> 3.4)
     rack (1.4.4)
     rack-cache (1.2)
       rack (>= 0.4)
@@ -58,14 +45,6 @@ GEM
       rack
     rack-test (0.6.2)
       rack (>= 1.0)
-    rails (3.2.11)
-      actionmailer (= 3.2.11)
-      actionpack (= 3.2.11)
-      activerecord (= 3.2.11)
-      activeresource (= 3.2.11)
-      activesupport (= 3.2.11)
-      bundler (~> 1.0)
-      railties (= 3.2.11)
     railties (3.2.11)
       actionpack (= 3.2.11)
       activesupport (= 3.2.11)
@@ -76,6 +55,7 @@ GEM
     rake (10.0.3)
     rdoc (3.12)
       json (~> 1.4)
+    slop (3.4.3)
     sprockets (2.2.2)
       hike (~> 1.2)
       multi_json (~> 1.0)
@@ -84,15 +64,12 @@ GEM
     sqlite3 (1.3.7)
     thor (0.17.0)
     tilt (1.3.3)
-    treetop (1.4.12)
-      polyglot
-      polyglot (>= 0.3.1)
-    tzinfo (0.3.35)
 
 PLATFORMS
   ruby
 
 DEPENDENCIES
   jquery-rails
+  pry
   sqlite3
   trumpet!

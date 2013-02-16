@@ -1,3 +1,3 @@
 module Trumpet
-  VERSION = "0.0.002"
+  VERSION = "0.0.003"
 end
