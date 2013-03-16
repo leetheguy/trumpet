@@ -1,8 +1,8 @@
 module Trumpet
   class Railtie < Rails::Railtie
-    initializer 'trumpet.user_additions' do
+    initializer 'trumpet.trumpet' do
       ActiveSupport.on_load :active_record do
-        extend UserAdditions
+        extend Trumpet
       end
     end
   end

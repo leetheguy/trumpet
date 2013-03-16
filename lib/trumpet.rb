@@ -1,5 +1,5 @@
 require "trumpet/version"
-require "trumpet/user_additions"
+require "trumpet/trumpet"
 require "trumpet/railtie" if defined? Rails
 module Trumpet
 end

@@ -5,6 +5,13 @@ module Trumpet
       extend ClassMethods
     end
     module InstanceMethods
+      attr_accessor :snarfle
+
+      def initialize
+        @snarfle = 'foo'
+        super
+      end
+
       def increase_points(value, type)
         @trumpet_rule = TrumpetRule.new
         points = self.class.find_or_create_points(type)
